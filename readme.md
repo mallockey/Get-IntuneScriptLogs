@@ -19,4 +19,5 @@ The script has two parameters, ComputerName and ScriptName
 
 ## Additional Info
 Two DLL files are required to get an Access token from Azure, I've included those files in the repository so the script will automatically load them
-and use them. If the files are not there it will attempt to install the AzureAD module to get the DLLs that way.
+and use them. If the files are not there it will attempt to install the AzureAD module to get the DLLs that way. Shoutout to all the people working on the 
+PowerShell Intune Samples [repo](https://github.com/microsoftgraph/powershell-intune-samples). I've used a slighly modified version of the Get-AuthToken function.
