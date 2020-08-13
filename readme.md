@@ -11,6 +11,7 @@ Running the script with no parameters will give all all script run data for ever
 ![Usage](/images/AllComputers.PNG)
 
 The script has two parameters, ComputerName and ScriptName
+
 `.\Get-IntuneScriptLogs.ps1 -ComputerName 'MALLOC-navhugr' -ScriptName 'Set-BaseLineStandard`
 
 ![Usage](/images/SingleScriptSingleComputer.PNG)
